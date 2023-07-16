@@ -75,6 +75,7 @@ a:active{
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	list-style-type: none;
 }
 .nav .nav-item{
 	font-family: var(--nav-item-font-family);
@@ -86,6 +87,7 @@ a:active{
 }
 .nav .nav-link{
 	display: block;
+	padding: 0.5rem 1rem;
 }
 .nav-link:hover{
 	color: var(--nav-item-link-hover);
