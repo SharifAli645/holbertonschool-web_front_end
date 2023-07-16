@@ -104,8 +104,6 @@ a:active{
 	color: var(--button-hover-color);
 	text-decoration: var(--button-hover-text-decoration);
 	background-color: var(--button-hover-background);
-	transition-duration: var(--transition-duration);
-	transition-property: color, background-color;
 }
 .navbar-menu{
 	float: right;
@@ -334,4 +332,8 @@ ul.row{
 }
 .card-work:hover .card-outer{
 	transform: scale(0.95);
+}
+.button:hover{
+	transition-duration: var(--transition-duration);
+	transition-property: color, background-color;
 }
