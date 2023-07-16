@@ -159,7 +159,7 @@ ul.row{
 .footer ul{
 	text-align: right;
 }
-.row{
+.row::after{
 	clear: both;
 	content: "";
 	display: table;
